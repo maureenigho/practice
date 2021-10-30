@@ -1,0 +1,392 @@
+-------
+Dev+Ops
+-------
+
+DevOps is short for Development and Operations. It concentrates on collaboration between developers and other parties involved in building, deploying, operating, and maintaining software systems.
+
+
+Overview of DevOps
+DevOps is an agile relationship b /gitietween development and IT operations.
+
+Agile Methodology
+Agile is a process by which a team can manage a project by breaking it up into several stages and involving constant collaboration with stakeholders and continuous improvement and iteration at every stage. ... This clarifies the customer's expectations to the project team.
+
+Devops, Agile and Scrum
+
+
+DevOps Toolset
+
+Version Control - source code --> Git, GitHub
+Build                         --> Apache Maven
+Integration                  --> Jenkins
+Testing                     --> SonarQube
+Artifactory                 --> Jfrog/Nexus
+Containerization              --> Docker
+Configuration Management     --> Ansible
+Orchestration                 --> Kubernetes
+Cloud                         --> AWS
+
+
+Project (combine all the tools)
+
+
+Windows OS
+Scrum Master
+End of the year party
+
+
+DevOps Principles
+Primarily work onthese 3:
+
+- Communication
+- Collaboration
+- Integration
+
+
+DevOps Pipeline
+SDLC - Software Delivery Life Circle
+
+CI/CD
+
+Continuous Integration
+Continuous Delivery
+Continuous Deployment
+
+Continuous Integration  
+Continuous Integration (CI) is a development practice where developers integrate code into a shared repository frequently, preferably several times a day. Each integration can then be verified by an automated build and automated tests. While automated testing is not strictly part of CI it is typically implied.
+
+
+Continuous Delivery
+After a successful integration, you will get artifact, deploying this artifact to test environment is called Continuous Delivery
+
+Continuous Deployment
+When after sucessful delivery into testing and everything is okay, then deployment to production server.
+
+
+***Life cycle of DevOps
+A lot of stages help in making DevOps what it is today.
+
+•   Continuous Integration
+When one stage in the DevOps lifecycle is completed, the application code has to move on to the next one. This happens with the help of integration tools. The developmental practice of continuously harmonizing the code from one stage to the next with the help of tools is called continuous integration. (VCS, Build & Artifactory)
+
+
+•   Continuous Development
+The developer plans and builds the code and uploads it on to a version control system like Git which contains the source code. Even after the final release, there are feedbacks which the developer needs to incorporate in the application. Therefore, this continuous process of improving the application by the Developer is called Continuous Development.
+
+•   Continuous Testing
+After the code is uploaded on to the source code platform, it undergoes testing with the help of test codes. Each time the source code undergoes changes, the code also undergoes testing in a continuous fashion before passing on to production.
+
+
+•   Continuous Deployment
+Each addition of feature in the application, might need some modifications in the application environment. This is called Configuration Management. To achieve this, we use several deployment tools. The process of continuously changing the application environment based on addition of features is called Continuous Deployment.
+
+
+•   Continuous Monitoring 
+Even after planning and testing, bugs might find their way to production. To keep a track of these bugs or any other inappropriate system behavior or even keeping a track on feature requests, the monitoring tool continuously keeps a check as and when the application undergoes updates.
+
+
+************************************************
+
+***Who is a DevOps Engineer?
+
+A DevOps Engineer has to manage the IT infrastructure as per the requirement of the supported software code that is dedicated in a hybrid multi-tenant environment. There is a need to have some resources for provisioning and getting the appropriate deployment model and also for validating and monitoring the performance.
+
+When it comes to DevOps, there is a need to have frequent and incremental changes in the code versions so that frequent testing and deployment are possible. It might not be always possible for DevOps Engineers to do the coding from scratch; they anyway need to know about it.
+
+There is a need for DevOps Engineers to connect various elements of coding along with libraries and software development kits and integrate various components of SQL data management or messaging tools for running software release with the operating system and the production infrastructure.
+
+
+**************************************************
+
+***Tasks of a DevOps Engineer
+
+A firm knowledge of various computer programming languages and familiarity with basic concepts of Linux will be helpful. It is good to have knowledge of any one scripting language as well.
+
+•   A DevOps Engineer is expected to be working with a variety of open-source tools and technologies for managing source codes.
+•   Having a thorough knowledge of IT operations and sysadmin roles in order to strategize the entire integration and deployment process is beneficial.
+•   Expertise in software code testing and deployment will smoothen the journey of a DevOps Engineer.
+•   A DevOps Engineer must be deploying various automation tools of DevOps to perfection. He/she is expected to have thorough knowledge of software development through automation tools.
+•   A firm grounding in the agile methodology of project management will take DevOps Engineers to a whole new level. The agile methodology helps in continuous iteration of software development and testing.
+•   Ability to connect to technical and business goals with alacrity should be the foremost aim of a DevOps Engineer.
+•   A DevOps Engineer has to exhibit good communication skills and should be well-versed in working with teams.
+
+***************************************************
+
+**Significant Skills Required by a DevOps Engineer
+•   Be an excellent Sysadmin
+•   Deploy virtualization
+•   Hands-on experience in network and storage
+•   Knowledge of coding goes a long way
+•   Soft skills are a must-have
+•   Understanding the automation tools
+•   Security aspects of the IT organization
+
+*******************************************************
+
+**Some Tools Used by a DevOps Engineer
+•   Git and GitHub: Version control system and source code mgt.
+•   Jenkins: Server automation and developing CI/CD pipelines
+•   Kubernetes: Container orchestration
+•   Ansible: Configuration management
+•   Docker: Software containerization
+•   Nagios: Continuous monitoring
+•   *Chef: Configuration management
+•   AWS: Cloud platform integration
+Ms-Azure
+Google Cloud Platform
+
+
+----------------------------
+Version Control System (VCS)
+----------------------------
+
+Importance of Version Control System
+
+All the documents can be identified by filenames, authors, and the modified dates. It helps in linking contributions and contributors
+
+Helps in tracing the development of the documents such as policies or source codes
+
+Helps in differentiating the latest versions and track the recent updates
+
+Continuous integration is easier with the newer version control systems
+
+Helps in keeping track of the independent code versions for various reasons
+
+Helps in coding collaboratively and remotely
+
+
+Overview of Git
+
+Popular Terminologies
+Git Clone
+Git Branch
+Git Checkout
+Git Commit
+Git Merge
+Git Pull
+Git Fetch
+Git Push
+
+
+Source Code Hosting Facility
+
+source code repository is a web hosting and file archive facility where larger data such as source code is stored either privately or publicly. The most popular source code hosting sites are listed:
+
+Gitlab
+Bitbucket
+Git
+Github
+
+
+Version Control System
+Version Control System (VCS) is a software that helps software developers to work together and maintain a complete history of their work.
+
+Listed below are the functions of a VCS −
+
+Allows developers to work simultaneously.
+Does not allow overwriting each other’s changes.
+Maintains a history of every version.
+Following are the types of VCS −
+
+Centralized version control system (CVCS).
+Distributed/Decentralized version control system (DVCS).
+In this chapter, we will concentrate only on distributed version control system and especially on Git. Git falls under distributed version control system.
+
+
+
+------------
+GIT Practice
+------------
+Launch EC2 Instance
+
+sudo yum update
+git --version
+sudo yum install git -y
+git --version
+mkdir source-code
+ls -l
+cd source-code
+ls -la
+git init
+ls -la
+touch index.html texts.txt C_Program.c HelloJava.java index.js styles.css
+
+vi index.html
+<html>
+<head><title>HTML</title></head>
+<body>
+        <p> I am your HTML Page. Thank you! </p>
+</body>
+</html>
+
+
+vi HelloJava.java
+class HelloJava {
+public static void main(String args[]){
+System.out.Println(“ I am your Java Program. Thank you! ”);
+}
+}
+
+vi index.js
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+vi C_Program.c
+for (initializationStatement; testExpression; updateStatement)
+{
+    // statements inside the body of loop
+}
+
+
+After entering those codes, you can start working on git
+
+git status
+git add .
+git status
+git commit -m "source code created"
+
+
+Configure Git
+git config --list
+git config user.name "Femi A"
+git config user.email "femi@insighttech.com"
+git config --list
+
+Make modification in text.txt
+git status
+git add text.txt
+git status
+git commit -m "text file modified
+git log
+git log -p   -->> shows the commit's history including all files and their changes
+git log --stat  -->> will cause the Git log to show some statistics about the changes in each commit, including line(s) changed and file names
+git show <commit-ID>
+
+Make additional changes
+vi README.md
+
+This explains the purpose of this project
+=========================================
+
+Author: Femi A
+Date: 10/02/2021
+Purpose: CI/CD
+
+git add .
+git commit -m "README file added"
+git status
+git log
+git show 49a18a1ac17ebccceff6521e494a7f6a74baf6a4
+
+Go to Github account
+Create a new repository
+git remote add origin https://github.com/insighttechworld/first-repo.git
+git remote -v     -->    used to see or confirm the rpository connected to this working repository
+
+
+
+---------------------------------
+Create Personal Access Token on GitHub
+From your GitHub account, go to Settings => Developer Settings => Personal Access Token => Generate New Token (Give your password) => Fillup the form => click Generate token => Copy the generated Token, it will be something like ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
+---------------------------------
+
+
+DAY 2
+-----
+
+Create a Second Repository in Github
+
+   96  mkdir second-repo
+   97  cd second-repo/
+   98  pwd
+   99  touch index.html patch.sh database.db
+  103  git init
+  104  ls -la
+  128  git config --list
+  129  git config user.name "Olufemi"
+  130  git config user.email "olufemi@insighttech.net"
+  131  git config --list
+  107  git status
+  108  git add .
+  109  git status
+  110  git commit -m "patch script updated"
+  111  git status
+  112  git log
+  113  git log -p
+  114  git remote -v
+  115  git remote add origin https://github.com/insighttechworld/Second-Repo.git
+  116  git remote -v
+  117  git branch
+  118  git push origin master
+  119  cd
+  120  vi token
+  121  pwd
+
+
+Let's assume another Developer wnat to make changes or addition to this code
+
+  123  git clone https://github.com/insighttechworld/Second-Repo.git
+  131  git config --list
+  132  git config user.name "ThankGod Power"
+  133  git config user.email "thankgod@insighttech.come"
+  134  git config --list
+  135  git log
+  140  git branch
+  141  git branch dev2
+  142  git branch
+  143  git checkout dev2
+  144  git branch
+touch dev2.sh file.txt
+  146  git branch
+  147  ls -l
+  148  touch dev2.sh file.txt
+  149  vi file.txt
+  150  vi index.html
+  151  git status
+  152  git add .
+  153  git status
+  154  git commit -m "additional file created - dev2"
+  155  git status
+  156  git log
+  157  git show d11534eb6c701414b2057abec48cdb1dfef4ff27
+  158  git status
+  159  git branch
+  160  git push origin dev2
+  161  pwd
+  162  cd
+  163  ls -l
+  164  mv Second-Repo 2nd-repo2
+  165  ls -l
+  166  git clone https://github.com/insighttechworld/Second-Repo.git
+  167  ls -l
+  168  cd Second-Repo/
+  169  ls -l
+  170  git branch dev3
+  171  git checkout dev3
+  172  git branch
+  173  vi index.html
+  174  vi dev3.py
+  175  git status
+  176  git log
+  177  git status
+  178  git branch
+  179  git status
+  180  git add .
+  181  git status
+  182  git commit -m "python script created by Dev3"
+  183  cat index.html
+  184  git status
+  185  git branch
+  186  git push origin dev3
+
+
+  
